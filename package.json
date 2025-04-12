@@ -1,0 +1,30 @@
+{
+  "name": "stripebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD-Ishan-Rana-MIR/StripeBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MD-Ishan-Rana-MIR/StripeBackend/issues"
+  },
+  "homepage": "https://github.com/MD-Ishan-Rana-MIR/StripeBackend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "stripe": "^18.0.0"
+  }
+}
