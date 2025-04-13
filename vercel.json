@@ -12,11 +12,9 @@
       "dest": "/"
     }
   ],
-  
-   "functions": {
-    "api/users/**/*.js": {
-      "maxDuration": 30
+  "functions": {
+    "index.js": {
+      "maxDuration": 10
     }
   }
-  
 }
